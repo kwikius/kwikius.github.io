@@ -1,0 +1,18 @@
+uploads required
+all frames  no frames body tags redone in Kwiki
+/index.htm
+/Kwiki/Top menu
+/Kwiki/uber_frame
+/Kwiki/Construction/uber_frame
+/Kwiki/Construction/Crossbeams/doc_frame
+/Kwiki/Construction/Foils/doc_frame
+/Kwiki/Construction/Hulls/doc_frame
+/Kwiki/Design/doc_frame
+/Kwiki/SailingPhotos/Doc_frame
+/Kwiki/Speed/Doc_frame
+/winch/uber_frame.htm
+/Winch/BoardElectronics/uber_frame.htm
+
+Windpower/numphra/doc.htm needs uploading -not serious
+
+

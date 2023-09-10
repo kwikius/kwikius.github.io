@@ -1,0 +1,28 @@
+
+body {background-color: #00003f; color:#ffffff;}
+table {
+	border-left:0px;
+	border-top:0px;
+	border-right:0px;
+	border-bottom:0px;
+	margin-top:20px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:0px;
+}	
+img {
+	border-left:0px;
+	border-top:0px;
+	border-right:0px;
+	border-bottom:0px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+p,td,h2,h3{color:#ffffff;}
+td{padding:3mm;}
+p.info{color:#ffd0d0;}
+
+
+

@@ -1,0 +1,24 @@
+
+a:link{color:#FFFF00;}
+a:visited{color:#FFA500;}
+a:active{color:#FF0000;}
+
+img.udnav{
+	margin:0;
+	width:7px;
+	height:11px;
+	border:0;
+}
+img.npnav{
+	margin:0;
+	width:11px;
+	height:20px;
+	border:0;
+}
+img.tnav{
+	margin:0;
+	width:20px;
+	height:11px;
+	border:0;
+}
+

@@ -1,0 +1,43 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+  <head>
+	<title>Kwiki- Construction</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta http-equiv="Keywords" content="Sailing,Sailboat,Yachts,Model boat,Modelling,Multihull,
+	Formula 48,Mini40,Catamaran,Trimaran,Hull,Crossbeam,RC,Radio Control,
+	Model Yacht Construction">
+  </head>
+  <script language = "Javascript" type = "text/javascript" >
+	<!--
+	  var targetdoc = location.search.substring(1);
+	  switch (targetdoc) {
+		case "doc.htm":	
+		case "Hulls/doc_frame.htm":
+		case "Foils/doc_frame.htm":
+		case "Crossbeams/doc_frame.htm":	
+		break;
+		default: 
+		targetdoc = "doc.htm";
+		break;
+	  }
+	  document.write('<frameset rows ="60,*" frame border =0 border="0" >',
+	  '<frame frameborder="0" src ="top_menu.htm" name ="top_menu" noresize>',
+	  '<frame frameborder="0" SRC = "' + targetdoc +'" name ="doc_frame" noresize>',
+	  '<noframes><body>Sorry this Document requires a Frame capable Browser.<br>Try upgrading to IE4 or Navigator 4',
+	  '<\/body><\/noframes><\/frameset>');
+	//--> 
+  </script>
+  <noscript>
+	<frameset rows ="60,*" frame border =0 border="0" >
+	<frame frameborder="0" src ="top_menu.htm" name ="top_menu" noresize>
+	<frame frameborder="0" SRC = "doc.htm" name ="doc_frame" noresize>
+	<noframes>
+	<body>
+	  Sorry this Document requires a Frame capable Browser.<br>
+	  Try upgrading to IE4 or Navigator 4
+	</body>
+	</noframes>
+	</frameset>
+  </noscript>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>User Customisation</title>
+	<meta http-equiv=Content-Type content='text/html;charset=iso-8859-1'>
+	<meta http-equiv=Keywords content='Windmill,Wind power,Wind turbine,permanent magnet generator,PMG,HAWT,
+	rotor blades,rotor,modelmaking,Model Yacht,Catamaran,Multihull,Mini40,RC,
+	Formula48,servo,winch,PID,servo,Electronics,microcontroller,pic'>
+	<script type='text/javascript'language='JavaScript1.2'src='../bsnab.js'></script>
+	<script type='text/javascript'language='JavaScript1.2'>
+	  <!--
+		replacewindowcontents('/res/user.htm','HelpWindow','../index.htm');
+	  // -->
+	</script>
+<script language = "JavaScript1.2" type = 'text/javascript' src = "../user.js"></script>
+<script language = "JavaScript1.2" type = 'text/javascript'>
+<!--
+	var user= new User(document);
+	if (!user.load() | !user.side) {
+		user.side = "right";
+	
+	}
+	
+function do_side_menu(side)
+{
+	if (user.side != side) {
+		user.side = side;
+		alert ('The updated side menu information has been stored:\nSide menus will appear on the '+ 
+		side.toUpperCase()+';\n\nnote: Previously visited pages on my site with side menus' +
+		' may display incorrectly');
+		user.store();
+	}
+}
+//-->
+</script>
+	<link rel=stylesheet href="../Welcome/style.css" type = "text/css">
+	<link rel=stylesheet href="../links.css" type = "text/css">
+<style>
+form{color:white;}
+form p{color:white;}
+</style>
+</head>
+<body>
+<a href = "../index.htm" target = "_top">
+	  <img src = "../../up.gif" class = udnav><i>Click here for my Home page</i>
+	</a>
+	<table width = 90%>
+	<tr>
+	<td>
+	<h2>The great side menu debate</h2>
+	</td>
+	
+	</tr>
+	</table>
+	
+	<p>
+	Some pages on the site contain side menus.</p>
+	<p>
+	There has been an ongoing argument among the designers as to which side to put the side menus.<br>
+	In order to settle this argument we have provided this page.</p>
+	<p>
+	Click the boxes below to display the side menus on the left or right of the main page.
+	</p>
+	
+	<form  method=POST action='mailto:andy@servocomm.freeserve.co.uk?subject=Side Menus Feedback'
+	enctype="text/plain">
+	<input type = "hidden" value="User Side Menus Form">
+	<script language = 'JavaScript1.2' type = 'text/javascript'>
+	<!--
+	document.write('<p align = center>',
+	'<input type = radio  name =side_menu value = "right" '+(user.side == "right"?'checked':'') ,
+	' onClick = "do_side_menu(\'right\');">put side menus on the right<br>',
+	'<input type = radio  name =side_menu value = "left" '+(user.side == "left"?'checked':'') ,
+	' onClick = "do_side_menu(\'left\');">put side menus on the left<\/p>');
+	//-->
+    </script>
+	<noscript>
+	<p>
+	<font color = "ff0000">Sorry this form uses Javascript scripting<br>
+	Either your browser does not support it or it is not enabled</font></p>
+	</noscript>
+	<p class = info>
+	<em>note1: The information is stored in a "cookie" on your PC and 
+	will be valid for the next 10 days. After that the cookie will be deleted automatically
+ 	and the default(right) will appear again.
+	If it doesnt seem to work ... check your browser has cookies enabled.</em>
+	</p>
+	<p class = info>
+	<em>note2: This is an Experimental page.
+	It has been tested in IE5, NN4, NN6, Opera4, Opera5.
+	After changing the side of the menu, using the [back] or [refresh] button may cause
+	recently visited pages on the site with side menus to display incorrectly.<br>
+	Reloading the errant page via the top menu button for the page
+	should bring the page to light correctly.
+	However the results cannot be predicted for all browsers.</em>
+	</p>
+	<h2>The debate continues ...</h2>
+	
+<p>
+   I used to get feedback on which was preferred...
+	Results:<br>
+	Right side menus: 5<br> 
+	Left side menus: 1
+	</p>
+</form>
+
+
+</body>
+</html>
+
